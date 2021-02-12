@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class BankingApp{
     public static void main(String[] args){
-        BankAccount myAccount = new BankAccount("Said", "Laarab");
+        BankAccount myAccount = new BankAccount("Said", "");
         myAccount.showMenu();
     }
 }
